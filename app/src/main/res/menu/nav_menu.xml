@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:title="登录" />
+        <item
+            android:id="@+id/nav_host"
+            android:title="主页" />
+        <item
+            android:id="@+id/nav_daoshu"
+            android:title="微分部分" />
+        <item
+            android:id="@+id/nav_jifen"
+            android:title="积分部分" />
+        <item
+            android:id="@+id/nav_shuoming"
+            android:title="软件介绍" />
+        <item
+            android:id="@+id/nav_learning_log"
+            android:title="学习记录"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_quiz_log"
+            android:title="测试记录"
+            android:visible="false" />
+
+    </group>
+</menu>
